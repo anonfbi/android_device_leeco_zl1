@@ -47,20 +47,20 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
     if (chinese)
     {
         // Set the main properties for the Chinese variant.
-        property_set("persist.multisim.config", "dsds");
-        property_set("persist.radio.multisim.config", "dsds");
-        property_set("ro.telephony.default_network", "22,22");
-        property_set("ro.product.model", "LEX720");
-        property_set("ro.product.customize", "whole-netcom");
+        android::init::property_set("persist.multisim.config", "dsds");
+        android::init::property_set("persist.radio.multisim.config", "dsds");
+        android::init::property_set("ro.telephony.default_network", "22,22");
+        android::init::property_set("ro.product.model", "LEX720");
+        android::init::property_set("ro.product.customize", "whole-netcom");
     } else {
         // Set the main properties for the USA variant.
-        property_set("persist.multisim.config", "NA");
-        property_set("persist.radio.multisim.config", "NA");
-        property_set("ro.telephony.default_network", "9");
-        property_set("ro.product.model", "LEX727");
-        property_set("ro.product.customize", "oversea");
+        android::init::property_set("persist.multisim.config", "NA");
+        android::init::property_set("persist.radio.multisim.config", "NA");
+        android::init::property_set("ro.telephony.default_network", "9");
+        android::init::property_set("ro.product.model", "LEX727");
+        android::init::property_set("ro.product.customize", "oversea");
     }
 
     // Set the expected 'le_zl1' properties used in our blobs.
-    property_set("ro.config.product", "le_zl1");
+    android::init::property_set("ro.config.product", "le_zl1");
 }
