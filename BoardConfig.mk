@@ -162,7 +162,7 @@ TARGET_USES_NQ_NFC := true
 TARGET_HW_DISK_ENCRYPTION := true
 
 # Recovery
-TARGET_RECOVERY_FSTAB := $(BOARD_PATH)/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB := $(BOARD_PATH)/rootdir/recovery/fstab.qcom
 
 # Headers
 # TARGET_SPECIFIC_HEADER_PATH := $(BOARD_PATH)/include
