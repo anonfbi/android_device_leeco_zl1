@@ -19,6 +19,9 @@
 # product configuration (apps).
 #
 
+# HIDL
+$(call inherit-product, device/leeco/zl1/hidl.mk)
+
 # Proprietary
 $(call inherit-product, vendor/leeco/zl1/zl1-vendor.mk)
 
