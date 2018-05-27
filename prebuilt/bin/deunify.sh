@@ -17,6 +17,9 @@ case "$DEVINFO" in
     rm -f /system/etc/permissions/android.hardware.nfc*
     rm -f /system/etc/permissions/com.android.nfc*
 
+    # remove nfc apk
+    rm -rf /system/app/NfcNci/*
+
     # remove nfc hal
     rm -f /system/vendor/lib/hw/nfc_nci.nqx.default.so
     rm -f /system/vendor/lib64/hw/nfc_nci.nqx.default.so
