@@ -2594,7 +2594,7 @@
 
     <path name="voice-speaker-mic">
         <path name="speaker-mic" />
-        <ctl name="ADC4 Volume" value="28" />
+        <ctl name="ADC4 Volume" value="10" />
     </path>
 
     <path name="voice-speaker-stereo-mic">
