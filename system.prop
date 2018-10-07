@@ -189,4 +189,4 @@ persist.radio.flexmap_type=disabled
 ro.sys.sdcardfs=false
 
 # ParanoidHub
-ro.pa.device=zl1
+#ro.pa.device=zl1
